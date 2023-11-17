@@ -1,0 +1,180 @@
+body {
+    margin:0;
+    padding:0;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: #1F2937;
+    padding: 16px 0px;
+}
+
+.header-first {
+    display:flex;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+
+.header-second {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap: 100px;
+    padding: 100px 200px;
+}
+
+.intro-box {
+    width: 400px;
+}
+
+.intro-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-family: Helvetica, sans-serif;
+}
+
+.intro-paragraph {
+    color:#d1d1d1;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;  
+    width: 600px;
+}
+
+.sign-up {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+img {
+    height: 200px;
+    width: 400px;
+}
+
+.logo {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-family: Helvetica, sans-serif;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    
+}
+
+a {
+    text-decoration: none;
+    color:#d1d1d1;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+}
+
+li {
+    list-style-type: none;
+    padding: 0 8px;
+}
+
+.info-section1-title {
+    text-align: center;
+    margin:30px;
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.info-section1 {
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px;
+}
+
+.info {
+    text-align: center;
+    width: 200px;
+}
+
+.info img {
+    height:200px;
+    width: 200px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.inspiring-quote {
+    background-color: #E5E7EB;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 500px;
+    gap: 16px;
+}
+
+.inspiring-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+.inspiring-person {
+    align-self: flex-end;
+    font-size: 18px;
+    color: #1f2937;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882f6 ;
+    justify-content: space-between;
+    align-items:center;
+    margin: 100px 400px;
+    padding: 25px 100px;
+    border-radius: 10px;
+}
+
+
+
+.call-to-action-title {
+    font-size: 24px;
+    color: #f9faf8;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.call-to-action-desc {
+    font-size: 18px;
+    color: #f9faf8;
+    font-family: Helvetica, sans-serif;
+}
+
+.call-to-action-sign-up {
+    border-radius: 4px;
+    background: none;
+    border: 3px solid #f9faf8;
+    padding: 8px 16px;
+    color:#f9faf8;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer {
+    font-size: 14px;
+    padding: 25px 100px;
+    background-color: #1f2937;
+    color:#f9faf8;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+
+
+}
